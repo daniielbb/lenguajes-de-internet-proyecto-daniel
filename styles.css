@@ -23,7 +23,8 @@ body{
   display:flex;
   flex-direction:column;
   overflow:hidden;
-  /* ya no lleva background aquí */
+  background:
+    linear-gradient(165deg, rgba(23,19,15,0.75) 0%, rgba(110,19,34,0.55) 58%, rgba(158,27,50,0.35) 100%);
 }
 
 .banner__img{
@@ -33,14 +34,6 @@ body{
   height:100%;
   object-fit:cover;
   z-index:0;
-}
-
-.banner__overlay{
-  position:absolute;
-  inset:0;
-  z-index:1;
-  background:
-    linear-gradient(165deg, rgba(23,19,15,0.75) 0%, rgba(110,19,34,0.55) 58%, rgba(158,27,50,0.35) 100%);
 }
 
 
